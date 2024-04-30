@@ -1,0 +1,307 @@
+<!-- Genius Byte -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+   <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link rel="stylesheet"  type="text/css" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <section class="flex">
+       
+        <a href="index.html"  class="logo" > Genius Byte</a>
+
+        <form action="" method="post" class="search-form">
+            <input type="text" name="search_box" placeholder="search courses..."
+            required maxlength="100">
+            <button type="submit" class="fas fa-search" name="search-box"></button>
+
+        </form>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+        <div class="profile">
+            <img src="images/img-1.jpg">
+            <span>Hmm, it looks like you don't have an account yet. <br>Let's get started!</span>
+            <div class="options">
+                <a href="login.html" class="option-btn">login</a> 
+                <a href="register.html" class="option-btn">sign up</a>
+            </div>
+        </div>
+    </section>
+    
+</header>
+
+
+
+<!-- Sidebar section starts -->
+<div class="side-bar">
+    <div class="close-side-bar" id="close-side-bar">
+      <i class="fas fa-times"></i>
+    </div>
+    <h1>Please log in or sign up</h1>
+    <div class="topbar">
+        <a href="login.html" class="option-btn">login</a>
+        <a href="register.html" class="option-btn">sign up</a>
+    </div>
+    <nav class="navbar"> 
+      <a href="index.html">
+        <i class="fas fa-home"></i>
+        <span>home</span>
+      </a>
+      <a href="about.html">
+        <i class="fas fa-question"></i>
+        <span>about us</span>
+      </a>
+      <a href="courses.html">
+        <i class="fas fa-graduation-cap"></i>
+        <span>courses</span>
+      </a>
+      <a href="teachers.html">
+        <i class="fas fa-chalkboard-user"></i>
+        <span>teachers</span>
+      </a>
+    </a>
+    
+    </nav>
+  </div>
+  <!-- Sidebar section ends -->
+
+
+
+<section class="quick-select">
+    <h1 class="heading" >Quick options</h1>
+    
+    <div class="box-container">
+     <div class="box">
+        <h3 class="title">likes and comments</h3>
+        <p>total likes : <span>2800</span></p>
+        <a href="#" class="inline-btn">view likes</a>
+        <p>total comments : <span>14</span></p>
+        <a href="#" class="inline-btn">view comments</a>
+        <p>saved playlist : <span>8</span></p>
+        <a href="#" class="inline-btn">view playlists</a>
+     </div>
+
+
+     <div class="box">
+        <h3 class="title"> top categories </h3> 
+        <div class="flex">
+            <a href="#"><i class="fas fa-code-branch"></i><span>Algorithem</span></a>
+            <a href="#"><i class="fas fa-cube"></i><span>Data Structure</span></a>
+            <a href="#"><i class="fas fa-code"></i><span>Programming languages</span></a>
+            <a href="#"><i class="fas fa-cogs"></i><span>Software Engineering</span></a>
+            <a href="#"><i class="fas fa-robot"></i><span>Artifitial intellegence</span></a>
+            <a href="#"><i class="fas fa-desktop"></i><span>Operating System</span></a>
+            
+        </div>
+    </div>
+
+
+<div class="box">
+        <h3 class="title"> popular topics </h3> 
+        <div class="flex">
+            <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>javascript</span></a>
+            <a href="#"><i class="fab fa-python"></i><span>Python</span></a>
+            <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+            <a href="#"><i class="fab fa-cuttlefish"></i><span>C++</span></a>
+            
+        </div>
+    </div>
+
+    </div>
+</section>
+<!-- quick select section ends -->
+
+
+<!--  Video   -->
+  
+<main class="video">
+    <video src="media/vedio-1.mp4" autoplay loop muted></video>
+    
+</main>
+
+
+  
+
+<!-- courses section starts -->
+    
+<section class="courses">
+    <h1 class="heading">Courses suggested for you</h1>
+    <div class="box-container">
+        
+        <div class="box">
+            <div class="teachers">
+                <img src="images/avt-1.png" alt="">
+                <div>
+                    <h3>adriana tech </h3>
+                    <span>5/3/2024</span>
+                </div>
+            </div>
+            <img src="images/html.jpg"  class="thumb" alt="">
+            <h3 class="title"> Complete HTML tutorial </h3>
+            <a href="playlist.html" class="inline-btn">view playlist </a>
+        </div>
+
+        <div class="box">
+            <div class="teachers">
+                <img src="images/avt-2.png" alt="">
+                <div>
+                    <h3>kyle pew </h3>
+                    <span>15/12/2024</span>
+                </div>
+            </div>
+            <img src="images/css.png"  class="thumb" alt="">
+            <h3 class="title"> Complete CSS tutorial </h3>
+            <a href="playlist.html" class="inline-btn">view playlist </a>
+        </div>
+
+        <div class="box">
+            <div class="teachers">
+                <img src="images/avt-3.png" alt="">
+                <div>
+                    <h3>Sara academy </h3>
+                    <span>26/9/2023</span>
+                </div>
+            </div>
+            <img src="images/javascript.jpg"  class="thumb" alt="">
+            <h3 class="title"> Complete javascript tutorial </h3>
+            <a href="playlist.html" class="inline-btn">view playlist </a>
+        </div>
+
+        <div class="box">
+            <div class="teachers">
+                <img src="images/avt-5.png" alt="">
+                <div>
+                    <h3>Ganesh kadam </h3>
+                    <span>8/9/2022</span>
+                </div>
+            </div>
+            <img src="images/python.jpeg"  class="thumb" alt="">
+            <h3 class="title"> Learn Python programming </h3>
+            
+            <a href="playlist.html" class="inline-btn">view playlist </a>
+        </div>
+
+        <div class="box">
+            <div class="teachers">
+                <img src="images/avt-6.png" alt="">
+                <div>
+                    <h3>John smilga </h3>
+                    <span>12/7/2023</span>
+                </div>
+            </div>
+            <img src="images/php.png"  class="thumb" alt="">
+            <h3 class="title">Complete PHP for beginners </h3>
+            <a href="playlist.html" class="inline-btn">view playlist </a>
+        </div>
+
+        <div class="box">
+            <div class="teachers">
+                <img src="images/avt-10.png" alt="">
+                <div>
+                    <h3>fireship</h3>
+                    <span>6/12/2023</span>
+                </div>
+            </div>
+            <img src="images/c.png"  class="thumb" alt="">
+            <h3 class="title"> C full course </h3>
+            <a href="playlist.html" class="inline-btn">view playlist </a>
+        </div>
+        
+    </div>
+
+    <div class="more-btn">
+        <a href="courses.html" class="inline-option-btn">view more</a>
+    </div>
+
+</section>  
+<!-- courses section ends-->
+
+
+<h1 class="head"><br><br><hr>&nbsp;&nbsp;You can find the perfect courses here :</h1>
+<p>&nbsp;&nbsp;There are courses for all languages, <br>
+    &nbsp;&nbsp;and they are fully accredited courses that make you proficient in any language. <br>
+    &nbsp;&nbsp;The teachers are highly qualified in teaching.</p>
+    &nbsp;&nbsp;<a href="courses.html" id="coursesLink">Go to Courses</a>
+
+
+
+<!--slide-->
+<main>
+    <div class="slideshow">
+      <img src="images/html.jpg" class="slide active">
+      <img src="images/javascript.jpg" class="slide">
+      <img src="images/css.png" class="slide">
+      <img src="images/go.jpg" class="slide">
+      <img src="images/assembly.jpg" class="slide">
+      <img src="images/c++.webp" class="slide">
+      <img src="images/perl.webp" class="slide">
+      <img src="images/php.png" class="slide">
+      <img src="images/mysql.webp" class="slide">
+      <img src="images/matlap.jpeg" class="slide">
+      <img src="images/arduino.png" class="slide">
+      <img src="images/c.png" class="slide">
+      <img src="images/Programming-Languages.jpg" class="slide">
+      <img src="images/r.png" class="slide">
+      <img src="images/ruby.jpg" class="slide">
+      <img src="images/shell.png" class="slide">
+      <img src="images/scala.jpg" class="slide">
+    </div>
+  </main>
+
+
+
+
+
+<!-- footer section starts -->
+
+<footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p> Our website offers a huge collection of courses of great value</p>
+        <br>
+        <h3>What We Learn</h3>
+        <p>
+        
+           -> Learn new concepts from industry experts.<br>
+           -> Teaching all programming languages ​​until reaching professionalism . <br>
+           -> Earn a shareable career certificate . <br>
+       </p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <ul class="social-media">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: Genius Byte @ gmail.com .</p>
+        <p>Phone: 123-456-789 </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Genius Byte. All rights reserved!</p>
+    </div>
+  </footer>
+  <!--footer section End-->
+
+<script  src="js/script.js"></script>
+
+</body>
+
+</html>
